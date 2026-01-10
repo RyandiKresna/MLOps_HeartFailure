@@ -1,7 +1,4 @@
-# Submission 1: Analysis & Prediction Penyakit Gagal Jantung
-Nama: Ryandi Kresna Anugerah
-
-Username dicoding: ryan_di
+# MLOps_HeartFailure
 
 | Bagian | Keterangan |
 |--------|------------|
@@ -12,4 +9,3 @@ Username dicoding: ryan_di
 | Arsitektur model | Arsitektur model yang dikembangkan merupakan jaringan Deep Multi-Layer Perceptron (MLP) untuk tugas klasifikasi biner. Model terdiri atas tiga lapisan tersembunyi yang dilengkapi Batch Normalization dan Dropout untuk mengatasi overfitting. Secara rinci, model memanfaatkan 5 fitur input numerik dan representasi one-hot dari 5 fitur kategorikal. Lapisan tersembunyi pertama berukuran 64 unit dengan aktivasi ReLU, dilanjutkan BatchNorm dan Dropout sebesar 0,3. Lapisan kedua berukuran 32 unit dengan konfigurasi serupa. Lapisan ketiga bersifat opsional dengan ukuran 32 unit. Lapisan output menggunakan 1 unit aktivasi sigmoid untuk menghasilkan probabilitas risiko penyakit. Karena distribusi kelas dalam dataset bersifat imbalanced, Focal Loss diterapkan sebagai fungsi loss untuk meningkatkan performa prediksi pada kelas minoritas.
 | Metrik evaluasi | Metrik evaluasi yang digunakan yaitu AUC, Precision, Recall, example count, BinaryAccuracy, F1 Score|
 | Performa model | Melalui arsitekture model yang digunakan, menghasilkan metrik evaluasi memperoleh, example count = 210,precision = 0.873,recall = 0.858, AUC = 0.921, binary Accuracy = 0.848, f1 score = 0.866|
-# MLOps_HeartFailure
