@@ -1,4 +1,4 @@
-# MLOps_HeartFailure
+# MLOps HeartFailure
 
 | Bagian | Keterangan |
 |--------|------------|
